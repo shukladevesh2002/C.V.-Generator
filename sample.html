@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <button onclick="func()">Add</button>
+    <script>
+        function func(){
+            let count=1;
+            document.getElementById("demo").innerHTML=`<table class="education-table">
+  <thead>
+   </thead>
+   <tbody>
+      <tr> 
+       <td>
+          <label for="qualification-${count}" class="form-label">Qualification</label>
+           <select type="text" class="form-control" id="qualification-${count}"  name="qualification-${count}">
+               <option value="">Select</option>
+               <option value="high school">High-School</option>
+            <option value="10+2">10+2</option>
+           </select>
+       </td>
+       <td>
+           <div class="start-year">
+               <label for="yos-${count}" class="form-label yos">Start Year</label>
+          <input type="date" class="year-start  form-control yos" id="yos-${count}"  name="yos-${count}">
+           </div>
+       </td>
+       <td>   
+       <div class="end-year">
+           <label for="yoe-${count}" class="form-label yoe">End Year</label>
+           <input type="date" class="year-end  form-control yoe" id="yoe-${count}"  name="yoe-${count}">
+       </div>
+          
+       </td>
+       <td>
+           <label for="institute-${count}" class="form-label institute">College/ School Name</label>
+           <input type="text" class="form-control institute" id="institute-${count}" name="institute-${count}">
+        
+       </td>
+   </tr>
+</tbody>
+</table> 
+<table>
+<tbody>   
+<tr>
+<td>
+
+<div class="remark"> <h2>Education Remark</h2><textarea id="education-remark-${count}" name="education-remark-${count}" rows="4" cols="50"></textarea>
+<i class="plus bi bi-plus-circle-fill" id="plus" width="100" height="50"></i>
+</div>
+</td> 
+</tr>
+
+<!------------------------------------------------------------------- Adding More Fields in Qualification --------------------------------------->
+</tbody>
+</table> 
+         `
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,845 @@
+ <tr>
+                    <td>
+                        <label for="qualification-2" class="form-label">Qualification</label>
+                         <select type="text" class="form-control" id="qualification-2" name="qualification-2">
+                             <option value="">Select</option>
+                             <option value="high school">High-School</option>
+                             <option value="intermediate">InterMediate</option>
+                             <option value="10+2">10+2</option>
+                         </select>
+                     </td>
+                     <td>
+                         <div class="start-year">
+                             <label for="yos-2" class="form-label yos">Start Year</label>
+                        <input type="date" class="year-start  form-control yos" id="yos-2"  name="yos-2">
+                         </div>
+                     </td>
+                     <td>   
+                     <div class="end-year">
+                         <label for="yoe-2" class="form-label yoe">End Year</label>
+                         <input type="date" class="year-end  form-control yoe" id="yoe-2"  name="yoe-2">
+                     </div>
+                        
+                     </td>
+                     <td>
+                         <label for="institute-2" class="form-label institute">College/ School Name</label>
+                         <input type="text" class="form-control institute" id="institute-2" name="institute-2">
+                     </td>
+                     <td>
+                        <label for="education-remark-2" class="form-label remark">Remark</label>
+                        <input type="text" class="form-control remark" id="education-remark-2" name="education-remark-2">
+                      </td>    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="qualification-3" class="form-label">Qualification</label>
+                         <input type="text" class="form-control" id="qualification-3"   name="qualification-3">
+                        
+                     </td>
+                     <td>
+                         <div class="start-year">
+                             <label for="yos-3" class="form-label yos">Start Year</label>
+                            <input type="date" class="year-start  form-control yos" id="yos-3"  name="yos-3">
+                         </div>
+                     </td>
+                     <td>   
+                     <div class="end-year">
+                         <label for="yoe-3" class="form-label yoe">End Year</label>
+                         <input type="date" class="year-end  form-control yoe" id="yoe-3"  name="yoe-3">
+                     </div>
+                        
+                     </td>
+                     <td>
+                         <label for="institute-3" class="form-label institute">College/ School Name</label>
+                         <input type="text" class="form-control institute" id="institute-3" name="institute-3">
+                     </td>
+                     <td>
+                        <label for="education-remark-3" class="form-label remark">Remark</label>
+                        <input type="text" class="form-control remark" id="education-remark-3" name="education-remark-3">
+                      </td>    
+                </tr>
+
+
+
+
+
+
+
+
+                 <tr>
+                    <td>
+                        <div class="form-group">
+                           <label for="experience-2" class="form-label">Experience</label>
+                           <input type="text" class="form-control experience-2" id="experience-2" name="experience-2">
+                        </div>
+                    </td>
+                   <td> 
+                    <div class="start-year">
+                        <label for="exp-yos2" class="form-label yos">Start Year</label>
+                   <input type="date" class="year-start  form-control yos" id="exp-yos2"  name="exp-yos2">
+                    </div>
+                </td>
+                <td>   
+                <div class="end-year">
+                    <label for="exp-yoe2" class="form-label yoe">End Year</label>
+                    <input type="date" class="year-end  form-control yoe" id="exp-yoe2"  name="exp-yoe2">
+                </div>
+              </td>
+              <td>
+                <div class="company-name">
+                    <label for="company-2" class="form-label company">Company/Organization Name</label>
+                <input type="text" class="form-control company" id="company-2" name="company-2">
+                </div>
+              </td> 
+              <td>
+                <textarea id="remark-2" name="remark-2" rows="4" cols="45"></textarea>
+               <!-- <label for="remark-2" class="form-label remark">Remark</label>
+                <input type="text" class="form-control remark" id="remark-2" name="remark-2">-->
+              </td>    
+                </tr>
+
+
+
+
+
+
+
+
+
+
+
+tbody    td:nth-child(2){
+           text-align:center;
+        }
+                     
+       .form-group{
+        display:inline-block;
+       }
+      .remark td{
+        padding-left:225px;
+      }
+      
+    h5{
+    display:block;
+    }    
+   
+   .start-year,.end-year .form-label{
+    display:inline-block;
+
+    
+   }
+   
+   
+   .education{
+    margin-top:35px;
+   }
+   .user-profile{position:absolute;
+     margin-top:-70px;
+    margin-left:500px;
+  
+   }
+   .profile{position:absolute;
+    height:55px;
+   }
+   
+   .hobbies,.skills,.certification,.languages{
+    display: inline-block;
+   }
+   .company{
+    width:250px;
+   }
+   .declaration{display: block;
+   border:none;
+    
+   } 
+   .btn{
+    margin-left:555px;
+   }
+  
+   .personel-info  .form-label{
+    margin-left:30px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="education-table">
+  <thead>
+   </thead>
+   <tbody>
+      <tr> 
+       <td>
+          <label for="qualification-1" class="form-label">Qualification</label>
+           <select type="text" class="form-control" id="qualification-1"  name="qualification-1">
+               <option value="">Select</option>
+               <option value="high school">High-School</option>
+            <option value="10+2">10+2</option>
+           </select>
+       </td>
+       <td>
+           <div class="start-year">
+               <label for="year-start" class="form-label yos">Start Year</label>
+          <input type="date" class="year-start  form-control yos" id="yos-1"  name="yos-1">
+           </div>
+       </td>
+       <td>   
+       <div class="end-year">
+           <label for="year-passing" class="form-label yoe">End Year</label>
+           <input type="date" class="year-end  form-control yoe" id="yoe-1"  name="yoe-1">
+       </div>
+          
+       </td>
+       <td>
+           <label for="institute-1" class="form-label institute">College/ School Name</label>
+           <input type="text" class="form-control institute" id="institute-1" name="institute-1">
+        
+       </td>
+   </tr>
+</tbody>
+</table> 
+<table>
+<tbody>   
+<tr>
+<td>
+
+<div class="remark"> <h2>Education Remark</h2><textarea id="education-remark-1" name="education-remark-1" rows="4" cols="50"></textarea>
+<i class="plus bi bi-plus-circle-fill" id="plus" width="100" height="50"></i>
+</div>
+</td> 
+</tr>
+
+<!------------------------------------------------------------------- Adding More Fields in Qualification --------------------------------------->
+</tbody>
+</table> 
+         
+                     <!-- <td>
+                        <label for="qualification-4" class="form-label">Qualification</label>
+                         <input type="text" class="form-control" id="qualification-4" name="qualification-4" >
+        
+                     </td>
+                     <td>
+                         <div class="start-year">
+                             <label for="yos-4" class="form-label yos">Start Year</label>
+                        <input type="date" class="year-start  form-control yos" id="yos-4"  name="yos-4">
+                         </div>
+                     </td>
+                     <td>   
+                     <div class="end-year">
+                         <label for="yoe-4" class="form-label yoe">End Year</label>
+                         <input type="date" class="year-end  form-control yoe" id="yoe-4"  name="yoe-4">
+                     </div>
+                        
+                     </td>
+                     <td>
+                         <label for="institute-4" class="form-label institute">College/ School Name</label>
+                         <input type="text" class="form-control institute" id="institute-4" name="institute-4">
+                     </td>
+                </tr>
+               <td> <div><h3>Additional Qualification</h3> </div></td>
+                <tr>
+                   
+                    <td>
+                       
+                        <label for="qualification-5" class="form-label">Qualification</label>
+                        <input type="text" class="form-control institute" id="qualification-5" name="qualification-5">
+                     </td>
+                     <td>
+                         <div class="start-year">
+                             <label for="yos5" class="form-label yos">Start Year</label>
+                        <input type="date" class="year-start  form-control yos" id="yos5"  name="yos5">
+                         </div>
+                     </td>
+                     <td>   
+                     <div class="end-year">
+                         <label for="yoe5" class="form-label yoe">End Year</label>
+                         <input type="date" class="year-end  form-control yoe" id="yoe5"  name="yoe5">
+                     </div>
+                        
+                     </td>
+                     <td>
+                         <label for="institute-5" class="form-label institute">College/ School Name</label>
+                         <input type="text" class="form-control institute" id="institute-5" name="institute-5">
+                     </td>
+                </tr>
+                 -->
+                </tfoot>
+
+            </table>
+
+
+
+
+
+
+
+
+
+
+            .container{min-width:fit-content;
+    border:2px solid black;
+}h3 {
+    display:inline-block;
+}
+body{
+    margin:0px;
+}
+
+
+
+.sub-container1{
+    min-height:fit-content;
+    width:325px;
+    position:absolute;
+    min-height: fit-content;
+    background-color:rgba(15,20,30,0.4);
+    padding-bottom:25px;
+    
+}
+.sub-container2{margin-left:350px;
+    width:755px;
+    position:absolute;
+    min-height: 1240px;
+
+margin-top:-25px;
+padding-bottom:25px;
+
+}
+
+.line{display:inline-block;
+    width:600px;
+    border:0.2px solid black;
+    position: absolute;
+    margin-top:25px;
+    margin-left:10px;
+
+}
+.pdf{
+    margin-left:555px;
+}
+.objective,.education,.experience{
+    position:relative;
+}
+.objective{
+    margin-top:50px;
+    position:relative;
+}
+.personel-info{
+    margin-top:150px;
+}
+.name-photo{margin-top:25px;
+    border:2px solid black;
+    height:100px;
+    width:auto;
+    border-radius:15px;
+    box-shadow:3px 5px 2px 5px;
+    background-color:gray;
+    z-index:5;
+}
+.name-photo h4{margin-left:55px;
+    font-size:22px;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:inline-block;
+}
+.name-photo img{margin-top:-15px;
+
+   float:right;
+margin-right:35px;
+border:7px solid white;
+border-radius:100px;
+
+}
+span{
+    margin-left:12px;
+}
+.personel-info,.certificates,.hobbies,.skills,.language{
+    margin-left:5px;
+}
+
+
+
+
+
+    <div class="pdf" id="pdf"><button id="btn" class="btn btn-primary" onclick="downloadPdf()">Download PDf</button>
+    </div>
+    <div class="container" id="container">
+        <page size="A4">
+        <div class="name-photo">
+            <h4><?php echo $record['user_name'] ?></h4>
+            <img src="user_profile/<?php echo $record['user_profile'] ?>" width="170" height="145">
+            <h2><?php echo $record['user_desg'] ?></h2>
+        </div>
+        <div class="sub-container1">
+
+            <div class="personel-info">
+
+                <i class="bi bi-person-fill"></i><span
+                    class="gender info"><?php echo $record['user_gender'] ?></span><br>
+                <i class="bi bi-calendar-fill"></i><span class="dob info"><?php echo $record['user_dob'] ?></span><br>
+                <i class="bi bi-telephone-fill"></i><span
+                    class="phno info"><?php echo $record['user_phno'] ?></span><br>
+                <i class="bi bi-envelope-fill"></i><span
+                    class="email info"><?php echo $record['user_email'] ?></span><br>
+                <i class="bi bi-geo-alt-fill"></i><span
+                    class="address info"><?php echo $record['user_address'] ?></span>
+
+            </div>
+
+
+            <div class="skills">
+
+                <h2>Skills</h2>
+                <?php while ($skill_rec = $sql_skill->fetch_assoc()) {
+    if ($skill_rec['skills'] != "") {
+        ?>
+               <span>-</span> <span class="skill" id="skill-<?php ++$num?>"><?php echo $skill_rec['skills'] ?></span><br>
+                <?php
+}
+}
+$num = 0;?>
+            </div>
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <?php while ($skill_rec = $sql_hobbie->fetch_assoc()) {
+    if ($skill_rec['hobbies'] != "") {
+        ?>
+                <span class="hobbie" id="hobbies-<?php ++$num?>"><?php echo $skill_rec['hobbies'] ?></span><br>
+                <?php
+}
+}
+$num = 0;?>
+            </div>
+            <div class="certificates">
+                <h2>Certificates</h2>
+                <?php while ($skill_rec = $sql_certificate->fetch_assoc()) {
+    if ($skill_rec['certificate'] != "") {
+        ?>
+                <span class="certificate-<?php ++$num?>"><?php echo $skill_rec['certificate'] ?></span><br>
+                <?php
+}
+}
+$num = 0;?>
+            </div>
+            <div class="language">
+                <h2>Languages Known</h2>
+                <?php while ($skill_rec = $sql_language->fetch_assoc()) {
+    if ($skill_rec['language'] != "") {
+        ?>
+                <span class="languages-<?php ++$num?>"><?php echo $skill_rec['language'] ?></span><br>
+                <?php
+}
+}
+$num = 0;
+?>
+            </div>
+
+
+ <div class="name-photo">
+                                            <h4><?php echo $record['user_name'] ?></h4>
+                                            <img src="user_profile/<?php echo $record['user_profile'] ?>" width="170" height="145">
+                                            <h2><?php echo $record['user_desg'] ?></h2>
+                                        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="sub-container2">
+          <div class="content-2">
+          <div class="objective">
+                <h3>OBJECTIVE</h3>
+                <div class="line"></div>
+                <p class="objective-info">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique aperiam, quasi suscipit ducimus aut dicta aspernatur
+                    quod modi dolores sapiente porro ea dolorum, consequatur architecto.
+                    Impedit ipsum eaque neque, ratione atque tenetur sit amet, nesciunt,
+                    suscipit exercitationem quis. Perspiciatis, cum error! Tempora repellendus
+                    asperiores a nemo praesentium. Saepe, sint esse!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique aperiam, quasi suscipit ducimus aut dicta aspernatur
+                    quod modi dolores sapiente porro ea dolorum, consequatur architecto.
+                    Impedit ipsum eaque neque, ratione atque tenetur sit amet, nesciunt,
+                    suscipit exercitationem quis. Perspiciatis, cum error! Tempora repellendus
+                    asperiores a nemo praesentium. Saepe, sint esse!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique aperiam, quasi suscipit ducimus aut dicta aspernatur
+                    quod modi dolores sapiente porro ea dolorum, consequatur architecto.
+                    Impedit ipsum eaque neque, ratione atque tenetur sit amet, nesciunt,
+                    suscipit exercitationem quis. Perspiciatis, cum error! Tempora repellendus
+                    asperiores a nemo praesentium. Saepe, sint 
+
+                    
+
+                </p>
+            </div>
+            <div class="education">
+                <h3>EDUCATION</h3>
+                <div class="line"></div>
+                <?php while ($education_rec = $sql_edu->fetch_assoc()) {
+               $arr=explode(".",$education_rec['remark']);    
+                ?>
+                <div class="edu-<?php echo ++$num ?>">
+                    <h4><?php echo $education_rec['college_name'] ?></h4>
+                    <p><?php echo date('d M Y',strtotime($education_rec['start_date'])). "   -   " . date('d M Y',strtotime($education_rec['end_date']))?></p>
+                    <p><?php
+                    for ($i = 0; $i <count($arr);$i++){
+                        echo $arr[$i] ."<br>";
+                 }
+                    ?></p>
+                </div>
+                <?php }
+$num = 0;?>
+            </div>
+            <div class="experience">
+                <h3>Work Experience</h3>
+                <div class="line"></div>
+                <?php while ($exp_rec = $sql_exp->fetch_assoc()) {
+                $brr=explode(".",$exp_rec['remark']);
+             
+                    ?>
+                <div class="exp-<?php echo ++$num ?>">
+                    <h4><?php echo $exp_rec['company'] ?></h4>
+                    <p><?php echo $exp_rec['designation'] ?></p>
+                    <p><?php echo date('d M Y',strtotime($exp_rec['exp_yos'])). "   -   " . date('d M Y',strtotime($exp_rec['exp_yoe']))?></p>
+                    <p><?php 
+                    for($j=0;$j<count($brr);$j++){
+                        echo $brr[$j] . "<br>";
+                    }
+                    ?></p>
+                   
+                    <?php          }
+$num = 0;?>
+
+
+                </div>
+                <div class="declaration"><?php echo $record['declaration'] ?></div><br>
+                <div class="curr_date">Date:<?php echo $record['curr_date'] ?></div>
+
+                <div class="place">Place:<?php echo $record['place'] ?></div>
+            </div>
+
+        </div>
+     
+          </div>
+        
+   
+</div>  
+                </div>
+                <button class="btn btn-primary" id="print-btn" onclick="printPdf()">Print</button> 
+
+    <script>
+
+
+
+
+
+
+
+
+    *{
+    margin: 0px;
+}
+.container{border-radius:25px;
+    min-width:fit-conta
+    min-height:50%;
+    border:2px solid black; 
+    margin:10px;
+    margin-left:140px;
+}
+.sub-container1{position:absolute;
+  min-width:21%;
+   min-height:188%;
+   background-color:grey;
+   margin-top:-160px;
+   border-radius: 35px;
+
+}
+.sub-container2{
+    min-width:50%;
+    min-height:188%;;
+    position:relative;
+  
+    margin-left:306px;
+margin-top:10px;
+   
+}
+.name-photo{z-index:5;
+  position:relative;
+    height:125px;
+    border:2px solid black;
+    box-shadow:8px 5px ;
+    margin-top:35px;
+    background-color:lightgray;
+    border-radius:25px ;
+}
+.name-photo h4:nth-child(1){
+    display:inline-block;
+
+}
+img{margin-top:-10px;
+    float:right;
+margin-right:20px;
+}
+.personel-info{
+    margin-top:185px;
+}
+.line{display:inline-block;
+    width:600px;
+    border:0.2px solid black;
+    position: absolute;
+    margin-top:28px;
+    margin-left:10px;
+
+}
+h3{
+    display:inline-block;
+}
+img{
+    border-radius:100px;
+    border:5px solid  white;
+    
+}
+.name-photo h4{
+    font-size:32px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    margin-left:25px;
+    margin-bottom:0px;
+}
+.name-photo h2{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:38px
+}
+.sub-container1 h2{
+ text-align:center;
+ font-family:'Courier New', Courier, monospace;
+ font-weight:bold;
+}
+.sub-container1 span{
+    font-size:20px;
+     margin-left:10px;
+    justify-content:end;
+        font-weight:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.personel-info{ 
+   font-size:22px;
+     margin-left:10px;
+    justify-content:end;
+    
+}
+.personel-info i{
+    margin-right:5px;
+}
+h3{
+    font-weight:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+      <table id="element" class="element">
+            <tbody>
+                <tr>
+                    <td colspan=3 >  <div  class="cv-header name-photo  name" id="cv-header">
+
+            <div class="name-desg"><span> <?php echo $record['user_name'] ?></span><span><?php echo $record['user_desg'] ?></span></div>
+            <div class="line-1"></div><img src="user_profile/<?php echo $record['user_profile'] ?>" width="180" height="180">
+                     <div class="line-2"></div>
+          <div class="personel-info">
+
+                <i class="bi bi-person-fill"></i><span class="gender info"><?php echo $record['user_gender'] ?></span><br>
+                <i class="bi bi-calendar-fill"></i><span class="dob info"><?php echo $record['user_dob'] ?></span><br>
+                <i class="bi bi-telephone-fill"></i><span class="phno info"><?php echo $record['user_phno'] ?></span><br>
+                <i class="bi bi-envelope-fill"></i><span class="email info"><?php echo $record['user_email'] ?></span><br>
+                <i class="bi bi-geo-alt-fill"></i><span class="address info"><?php echo $record['user_address'] ?></span>
+           </div>
+         </div>
+        </td>
+ </tr>
+ 
+                <tr>
+                    <td>
+                    
+                        <div class="column-1">
+                            <h2> Objectives</h2>
+
+
+                            <div class="objective">
+                                     <p class="objective-info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique aperiam, quasi suscipit ducimus aut dicta aspernatur
+                                quod modi dolores sapiente porro ea dolorum, consequatur architecto.
+                                Impedit ipsum eaque neque, ratione atque tenetur sit amet, nesciunt,
+                                suscipit exercitationem quis. Perspiciatis, cum error! Tempora repellendus
+                                asperiores a nemo praesentium. Saepe, sint esse!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+                                suscipit exercitationem quis. Perspiciatis, cum error! Tempora repellendus
+                                asperiores a nemo praesentium. Saepe, sint esse!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+
+                                 </p>
+
+
+
+                            </div>
+
+                            <h2>Work Experience</h2>
+                           
+                                <?php $num = 0;
+                                while ($exp_rec = $sql_exp->fetch_assoc()) {
+                                    $brr = explode("/", $exp_rec['remark']);
+
+                                ?>
+                                 <div class="experienece">
+                                    <div class="exp-<?php echo ++$num ?>">
+                                        <h4><?php echo  $exp_rec['company'] ?></h4>
+                                        <h5 class="exp"><?php echo $exp_rec['designation'] ?></h5>
+                                        <p><?php echo date('d M Y', strtotime($exp_rec['exp_yos'])) . "   -   " . date('d M Y', strtotime($exp_rec['exp_yoe'])) ?></p>
+                                        <?php
+                                        for ($j = 0; $j < count($brr); $j++) {
+                                            echo "<li>" . $brr[$j] . "</li>" . "<br>";
+                                        }
+                                        ?></p>
+
+                                    <?php          }
+                                $num = 0; ?>
+
+
+                                    </div>
+                                    <h2>Education</h2>
+                                    <div class="education">
+
+                                        <div class="line"></div>
+                                        <?php $num = 0;
+                                        while ($education_rec = $sql_edu->fetch_assoc()) {
+                                            $arr = explode(".", $education_rec['remark']);
+                                        ?>
+                                            <div class="edu-<?php echo ++$num ?>">
+                                                <h4><?php echo $num . " " . $education_rec['college_name'] ?></h4>
+                                                <p><?php echo date('d M Y', strtotime($education_rec['start_date'])) . "   -   " . date('d M Y', strtotime($education_rec['end_date'])) ?></p>
+                                                <?php
+                                                for ($i = 0; $i < count($arr); $i++) {
+                                                    echo "<li>" . $arr[$i] . "</li>" . "<br>";
+                                                }
+                                                 }
+                                                 $num = 0;
+
+                                                
+                                                $arr = "";
+                                                ?>
+                                            </div>
+                                        
+                                    </div>
+
+
+
+                            </div>
+                    </td>
+                    <!-- Second Container-->
+                    <td>
+                        <div class="column-2">
+                            <h2>Projects</h2>
+                              <div class="projects">  
+                            
+
+
+                         
+
+
+                                <?php while ($skill_rec = $sql_projects->fetch_assoc()) {
+                                    if ($skill_rec['projects'] != "") {
+                                ?>
+                                        <li class="project" id="project-<?php ++$num ?>"><?php echo $skill_rec['projects'] ?></li>
+                                <?php
+                                    }
+                                }
+                                $num = 0; ?>
+
+                              </div>
+                               <h2>Skills</h2>
+                            <div class="skills">
+
+
+
+                                <?php while ($skill_rec = $sql_skill->fetch_assoc()) {
+                                    if ($skill_rec['skills'] != "") {
+                                ?>
+                                        <li>
+                                            <?php echo $skill_rec['skills'] ?>
+                                        </li>
+                                <?php
+                                    }
+                                }
+                                $num = 0; ?>
+
+                         </div>
+                            <h2>Hobbies</h2>
+                            <div class="hobbies">
+
+
+                                <?php while ($skill_rec = $sql_hobbie->fetch_assoc()) {
+                                    if ($skill_rec['hobbies'] != "") {
+                                ?>
+                                        <li class="hobbie" id="hobbies-<?php ++$num ?>"><?php echo $skill_rec['hobbies'] ?></li>
+                                <?php
+                                    }
+                                }
+                                $num = 0; ?>
+
+                            </div>
+                            <h2>Certificates</h2>
+                            <div class="certificates">
+
+
+                                <?php while ($skill_rec = $sql_certificate->fetch_assoc()) {
+                                    if ($skill_rec['certificate'] != "") {
+                                ?>
+                                        <li class="certificate" id="certificate-<?php ++$num ?>"><?php echo $skill_rec['certificate'] ?></li>
+                                <?php
+                                    }
+                                }
+                                $num = 0; ?>
+
+                            </div>
+                            <h2>Languages Known</h2>
+                            <div class="language">
+
+                                <?php while ($skill_rec = $sql_language->fetch_assoc()) {
+                                    if ($skill_rec['language'] != "") {
+                                ?>
+                                        <li class="languages" id="languages-<?php ++$num ?>"><?php echo $skill_rec['language'] ?></li>
+                                <?php
+                                    }
+                                }
+                                $num = 0;
+                                ?>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
